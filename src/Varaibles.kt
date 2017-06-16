@@ -50,17 +50,4 @@ fun main(args:Array<String>){
     println("%.2f".format(num3)) // it will prints 96.43
     println("%.3f".format(num3)) // it will prints 96.435
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
