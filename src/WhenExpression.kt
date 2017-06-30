@@ -2,7 +2,18 @@
  * Created by ahmad on 19/06/17.
  */
 
+/**
+ * When Expression
+ * {@code when} is an expression in kotlin
+ * an expression can be used as part of another expression.
+ */
+
 fun main(args:Array<String>){
+
+    // for example
+    val i : Int = 5
+    //
+    val x = when(i){ 45-> 4 else-> 5}
 
     print("Enter Number : ")
     var num = readLine()?.toLong()

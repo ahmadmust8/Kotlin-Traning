@@ -2,6 +2,11 @@
  * Created by ahmad on 17/06/17.
  */
 
+/**
+ * If Expression
+ * {@code If} is an expression in kotlin
+ * an expression can be used as part of another expression.
+ */
 fun main(args:Array<String>){
 
     if (true){
@@ -9,7 +14,7 @@ fun main(args:Array<String>){
     }
 
 
-    if (5 >= 6){
+    if (5 < 6){
         println(5)
     }else{
         println("nothing")
